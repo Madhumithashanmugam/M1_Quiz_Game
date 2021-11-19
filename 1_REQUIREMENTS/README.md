@@ -16,17 +16,17 @@
 	
 ##### 4W's and 1H
 
-# WHO
+## WHO
 	Any user who are intersted can take the quiz and enjoy the quiz.
 	
-# WHAT
+## WHAT
 	The project  main aim is to anyone participate in the quiz.
 
-# WHEN
+## WHEN
 	Students will actively participate because the quiz is based on c language.
 	
-# WHY
+## WHY
 	The project is mainly For students to get more knowledge on c.
 	
-# HOW
+## HOW
 	The user can take the quiz by entering their name.
