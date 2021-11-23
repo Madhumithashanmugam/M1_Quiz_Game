@@ -12,5 +12,10 @@
 
 ## LOW LEVEL TEST PLAN
 
-![lowlevel1](https://user-images.githubusercontent.com/94168215/143011106-e9961709-f217-4dbf-939c-45184b039743.png)
 
+| Id    |             Description             | Expected I/P | Expected O/P                                 | Output          | Type of test |
+| ----- | ----------------------------------- |------------- |----------------------------------------------|-----------------|--------------|
+| LP_01 | User can view all rules of the game | Character Y  |View all rules and continue to game or exit   |continue to game |Requirement   |
+| LP_02 | User has an option to exit          | Character N  |Can exit the game                             |Exit             |Requirement   |
+| LP_03 | User can view scores and win cash   | Character Y  |Results are displayed and cashprize awareded  |Displays result  |Requirement   |
+|       |  prizes                             |              |                                              |with grade       |              |
