@@ -2,7 +2,12 @@
 
 ## HIGH LEVEL TEST PLAN
 
-![high](https://user-images.githubusercontent.com/94168215/143010883-9358b92f-bb52-46ad-9b51-1296c8d296c9.png)
+
+| Id    | Description    | Expected I/P | Expected O/P | Output          | Type of test |
+| ----- | -------------- |------------- |--------------|-----------------|--------------|
+| HP_01 | User Interface | Enter Name   |Hello! Name   |Hello! Name      |Requirement   |
+| HP_02 | User Interface | Character Y  |Enter answer  |Answer is correct|Requirement   |
+
 
 
 ## LOW LEVEL TEST PLAN
