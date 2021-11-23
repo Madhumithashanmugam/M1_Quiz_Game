@@ -32,4 +32,5 @@
 	The user can take the quiz by entering their name.
 
 ## SWOT ANALYSIS
-![Swot](https://user-images.githubusercontent.com/94168215/142724393-9ac737a8-125d-45bb-b5df-d38e90c4d1b7.png)
+![SWOT Analysis](https://user-images.githubusercontent.com/94168215/143005521-f9dbdce4-ebcf-4a01-8860-862f9d8a0489.png)
+
