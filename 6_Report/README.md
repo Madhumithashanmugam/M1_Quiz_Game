@@ -68,6 +68,38 @@
 
 ![Usecase diagram](https://user-images.githubusercontent.com/94168215/143244128-294e5c5c-f4d1-49f2-8416-6cd1ec9a62a9.png)
 
+# TEST PLAN
+
+## HIGH LEVEL TEST PLAN
+
+
+| Id    | Description    | Expected I/P | Expected O/P | Output          | Type of test |
+| ----- | -------------- |------------- |--------------|-----------------|--------------|
+| HP_01 | User Interface | Enter Name   |Hello! Name   |Hello! Name      |Requirement   |
+| HP_02 | User Interface | Character Y  |Enter answer  |Answer is correct|Requirement   |
+
+
+
+## LOW LEVEL TEST PLAN
+
+
+| Id    |             Description             | Expected I/P | Expected O/P                                 | Output          | Type of test |
+| ----- | ----------------------------------- |------------- |----------------------------------------------|-----------------|--------------|
+| LP_01 | User can view all rules of the game | Character Y  |View all rules and continue to game or exit   |continue to game |Requirement   |
+| LP_02 | User has an option to exit          | Character N  |Can exit the game                             |Exit             |Requirement   |
+| LP_03 | User can view scores and win cash prizes   | Character Y  |Results are displayed and cashprize awareded  |Displays result  with grade  |Requirement   |
+                                                                                                                  
+## OUTPUT
+
+![Output 1](https://user-images.githubusercontent.com/94168215/143244441-4bba8ea5-fcf8-4f8a-9e49-984a98d19aa0.png)
+
+![Output 2](https://user-images.githubusercontent.com/94168215/143244531-a63b2dc5-4d34-45d6-b91d-7ff160c501b4.png)
+
+![Output 3](https://user-images.githubusercontent.com/94168215/143244574-2cd5eee6-66d0-4fb4-bb68-29dd17c20b7a.png)
+
+![Output 4](https://user-images.githubusercontent.com/94168215/143244615-b5cb3ae4-e56e-4741-a0ed-9f455eae5a9d.png)
+
+![Output 5](https://user-images.githubusercontent.com/94168215/143244656-088cd484-be26-4182-8b35-88152053fbf3.png)
 
 
 
