@@ -31,25 +31,29 @@
 ### HOW
 	The user can take the quiz by entering their name.
 	
-## HIGH LEVEL REQUIREMENTS
+## REQUIREMENTS
 
-          | ID    |  DESCRIPTION                           |
-	  |------ |--------------------------------------- |
-	  | HR_01 | User shall choose 'Y' to play the game |
-          | HR_02 | User shall choose 'N' to exit the game |
-	  | HR_03 | User shall Win cash prizes             |
-	  | HR_04 | User shall loose the game              |
-	  | HR_05 | User shall choose to reset the score   |
-	  | HR_06 | User shall choose the option for help  |
-	  
-## LOW LEVEL REQUIREMENTS
+### HIGH LEVEL REQUIREMENTS
 
-          |  ID   |              DESCRIPTION                                        |HLR ID |
-	  | ------|-----------------------------------------------------------------|-------|
-	  | LR_01 | If the user presses 'Y' User can be playing the quiz            | HR_01 |
-	  | LR_02 | If the user presses 'N' User can quit the game without playing  | HR_02 |
-	  | LR_03 | If the user score high marks user can be awarded with cash prize| HR_03 |
-	  | LR_04 | If the user press 'H' user can seek help 		            | HR_06 |
+| ID    | DESCRIPTION                             | 
+| ------| --------------------------------------- | 
+| HR_01 | User shall choose 'Y' to play the game  |
+| HR_02 | User shall choose 'N' to exit the game  | 
+| hR_03 | User shall Win cash prizes              | 
+| HR_04 | If the user press 'H' user can seek help| 
+| HR_05 | User shall loose the game               |
+| HR_06 | User shall choose the option for help   |
+
+### LOW LEVEL REQUIREMENTS
+
+| ID    | DESCRIPTION                                                     | HLR ID |
+| ------| --------------------------------------------------------------- | -------|
+| LR_01 | If the user presses 'Y' User can be playing the quiz            | HR_01  |
+| LR_02 | If the user presses 'N' User can quit the game without playing  | HR_02  |
+| LR_03 | If the user score high marks user can be awarded with cash prize| HR_03  |
+| LR_04 | If the user press 'H' user can seek help                        | HR_06  |
+	 
+	 
 	  
 	  
 ## SWOT ANALYSIS
