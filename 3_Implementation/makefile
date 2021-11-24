@@ -1,5 +1,14 @@
 PROJ_NAME = quiz
 SRC = main.c
+src/existquiz.c\
+src/quiz.c
+TEST_SRC = src/quiz.c\
+src/existquiz.c\
+test/test_quiz.c\
+unity/unity.c 
+
+
+#To check if the OS is windows or linux and set the executable file extension and delete command accordingly
 
 ifdef OS
    RM = del /q
