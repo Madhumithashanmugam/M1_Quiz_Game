@@ -1,9 +1,7 @@
 PROJ_NAME = quiz
 SRC = main.c
-src/existquiz.c\
 src/quiz.c
 TEST_SRC = src/quiz.c\
-src/existquiz.c\
 test/test_quiz.c\
 unity/unity.c 
 
