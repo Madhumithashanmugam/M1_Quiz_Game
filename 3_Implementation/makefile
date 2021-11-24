@@ -1,17 +1,42 @@
-CC= gcc
+PROJ_NAME = quiz
+SRC = main.c
 
-CFLAGS=-c -Wall
+ifdef OS
+   RM = del /q
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
 
-all: quiz
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
+INC	= -Iinc\
+-Iunity
 
-quiz: quiz.o functions.o
-	$(CC) quiz.o functions.o -o quiz
+all:$(SRC) $(BUILD)
+	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
-quiz.o: quiz.c
-	$(CC) $(CFLAGS) quiz.c
 
-functions.o: functions.c
-	$(CC) $(CFLAGS) functions.c
+run: all
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-clean: 
-	rm -rf *.o quiz
+# Build and run of Unit test
+
+build:
+	gcc $(SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+
+run: build
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+staticcheck:
+	cppcheck --enable=all -iunity .
+
+memcheck:
+	valgrind ./$(TEST_OUTPUT)
+
+clean:
+	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
