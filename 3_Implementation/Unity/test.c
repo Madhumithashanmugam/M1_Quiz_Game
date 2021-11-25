@@ -26,7 +26,7 @@ int main()
   UNITY_BEGIN();
 
 /* Run Test functions */
-  RUN_TEST(test_check_draw);
+  RUN_TEST(test_check);
   
 
   /* Close the Unity Test Framework */
