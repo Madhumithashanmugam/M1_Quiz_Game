@@ -4,4 +4,4 @@
    
 ## CODE INSPECTOR BADGES
 
-| ![Code quality score](https://api.codiga.io/project/29971/score/svg) | ![Code grade](https://api.codiga.io/project/29971/status/svg )|
+| ![Code quality score](https://api.codiga.io/project/29971/score/svg) | ![Code grade](https://api.codiga.io/project/29971/status/svg )| [![Code Quality - Static Code - Cppcheck](https://github.com/Madhumithashanmugam/M1_Quiz_Game/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Madhumithashanmugam/M1_Quiz_Game/actions/workflows/cppcheck.yml)
